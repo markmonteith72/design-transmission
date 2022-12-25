@@ -78,7 +78,7 @@ body {
 
 .hero-section {
   position: relative;
-  top: -1.5em;
+  top: -0.5em;
   bottom: 0em;
   display: block;
   height: auto;
@@ -137,6 +137,7 @@ body {
   position: relative;
   height: auto;
   max-height: none;
+  margin-top: 2em;
   padding-top: 4em;
   padding-right: 1em;
   padding-bottom: 4em;
@@ -579,7 +580,7 @@ body {
   }
 
   .hero-section {
-    top: -5em;
+    top: -3em;
   }
 
   .link {
@@ -593,7 +594,7 @@ body {
   }
 
   .about-skills-section {
-    margin-top: 0em;
+    margin-top: 0px;
   }
 
   .text-block-2 {
@@ -701,7 +702,7 @@ body {
   }
 
   .hero-section {
-    top: -10em;
+    top: -7em;
   }
 
   .link {
@@ -709,77 +710,91 @@ body {
   }
 
   .text-block {
-    left: 35%;
-    font-size: 1.7vw;
+    left: 28%;
+    font-size: 1.9vw;
   }
 
   .about-skills-section {
-    margin-top: -16em;
+    margin-top: -13em;
   }
 
   .text-block-2 {
-    left: 35%;
-    font-size: 1.7vw;
+    left: 28%;
+    font-size: 1.9vw;
   }
 
   .heading-4 {
-    width: 34em;
-    max-width: 34em;
+    width: 32em;
+    max-width: 32em;
+    font-size: 2.6vw;
   }
 
   .heading-5 {
-    width: 34em;
-    max-width: 34em;
+    width: 32em;
+    max-width: 32em;
+    font-size: 2.6vw;
   }
 
   .footer-details {
-    font-size: 1.4em;
+    font-size: 1.8em;
   }
 
   .footer-contact-links {
-    font-size: 1.4em;
+    font-size: 1.8em;
   }
 
   .footnote-text {
-    font-size: 1.3vw;
+    font-size: 1.7vw;
   }
 
   .button {
-    bottom: 23.8em;
+    left: 33.5em;
+    bottom: 18.3em;
     display: block;
-    width: 16em;
+    width: 14em;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 1.8vw;
     text-align: center;
   }
 
   .button-2 {
-    left: 48.5em;
-    bottom: 22.3em;
+    left: 33.5em;
+    bottom: 17.6em;
     display: block;
-    width: 16em;
+    width: 14em;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 1.8vw;
     text-align: center;
   }
 
   .button-3 {
-    left: 48.5em;
-    bottom: 20.7em;
+    left: 33.5em;
+    bottom: 16.8em;
     display: block;
-    width: 16em;
+    width: 14em;
+    font-size: 1.8vw;
     text-align: center;
   }
 
   .button-4 {
-    left: 48.5em;
-    bottom: 19.1em;
+    left: 33.5em;
+    bottom: 16em;
     display: block;
-    width: 16em;
+    width: 14em;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 1.8vw;
     text-align: center;
   }
 
   .button-5 {
-    left: 48.5em;
-    bottom: 17.4em;
+    left: 33.5em;
+    bottom: 15.2em;
     display: block;
-    width: 16em;
+    width: 14em;
+    font-size: 1.8vw;
     text-align: center;
   }
 
@@ -793,8 +808,12 @@ body {
     padding-bottom: 0em;
   }
 
+  .heading-6 {
+    font-size: 2em;
+  }
+
   .paragraph {
-    font-size: 1.6vw;
+    font-size: 1.8vw;
   }
 
   .text-span-4 {
@@ -809,7 +828,7 @@ body {
   }
 
   .hero-section {
-    top: -13.5em;
+    top: -10em;
   }
 
   .link {
@@ -823,7 +842,7 @@ body {
   }
 
   .about-skills-section {
-    margin-top: -22em;
+    margin-top: -14em;
   }
 
   .text-block-2 {
@@ -834,45 +853,40 @@ body {
   .button {
     left: 33em;
     bottom: 17.2em;
-    width: 16em;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    width: 14em;
+    padding: 0px;
     font-size: 1.8vw;
   }
 
   .button-2 {
     left: 33em;
     bottom: 16.3em;
-    width: 16em;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    width: 14em;
+    padding: 0px;
     font-size: 1.8vw;
   }
 
   .button-3 {
     left: 33em;
     bottom: 15.4em;
-    width: 16em;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    width: 14em;
+    padding: 0px;
     font-size: 1.8vw;
   }
 
   .button-4 {
     left: 33em;
     bottom: 14.4em;
-    width: 16em;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    width: 14em;
+    padding: 0px;
     font-size: 1.8vw;
   }
 
   .button-5 {
     left: 33em;
     bottom: 13.4em;
-    width: 16em;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    width: 14em;
+    padding: 0px;
     font-size: 1.8vw;
   }
 
