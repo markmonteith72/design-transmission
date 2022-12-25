@@ -60,7 +60,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 26em;
-  height: 1.7em;
+  height: 1.8em;
   margin-top: 2em;
   margin-right: 3em;
   margin-left: 45em;
@@ -91,6 +91,7 @@ body {
 .link {
   font-family: articulat-cf, sans-serif;
   color: #202020;
+  line-height: 1.7;
   font-weight: 600;
   text-decoration: none;
 }
@@ -562,6 +563,10 @@ body {
   background-color: #fff;
 }
 
+.text-span-4 {
+  font-size: 0.4em;
+}
+
 @media screen and (max-width: 991px) {
   .image-14 {
     top: 18px;
@@ -579,6 +584,7 @@ body {
 
   .link {
     font-size: 1.6vw;
+    line-height: 1.6;
   }
 
   .text-block {
@@ -790,6 +796,10 @@ body {
   .paragraph {
     font-size: 1.6vw;
   }
+
+  .text-span-4 {
+    font-size: 0.5em;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -804,6 +814,7 @@ body {
 
   .link {
     font-size: 2.2vw;
+    line-height: 1.7;
   }
 
   .text-block {
@@ -870,6 +881,10 @@ body {
   }
 
   .text-span-3 {
+    font-size: 0.5em;
+  }
+
+  .text-span-4 {
     font-size: 0.5em;
   }
 }
