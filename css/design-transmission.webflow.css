@@ -717,8 +717,8 @@ body {
 
 @media screen and (max-width: 767px) {
   .nav-menu {
-    width: 36em;
-    height: 2.4em;
+    width: 52em;
+    height: 3em;
   }
 
   .hero-section {
@@ -726,7 +726,7 @@ body {
   }
 
   .link {
-    font-size: 1.9vw;
+    font-size: 2.4vw;
   }
 
   .text-block {
@@ -895,11 +895,11 @@ body {
   }
 
   .text-block {
-    left: 17%;
-    width: 30em;
-    max-width: 30em;
+    left: 22%;
+    width: 24em;
+    max-width: 24em;
     padding-top: 1.5em;
-    font-size: 2.6vw;
+    font-size: 3vw;
   }
 
   .about-skills-section {
@@ -907,22 +907,22 @@ body {
   }
 
   .text-block-2 {
-    left: 17%;
-    width: 30em;
-    max-width: 30em;
-    font-size: 2.6vw;
+    left: 22%;
+    width: 24em;
+    max-width: 24em;
+    font-size: 3vw;
   }
 
   .heading-4 {
-    width: 28em;
-    max-width: 28em;
-    font-size: 3vw;
+    width: 26em;
+    max-width: 26em;
+    font-size: 3.4vw;
   }
 
   .heading-5 {
-    width: 28em;
-    max-width: 28em;
-    font-size: 3vw;
+    width: 26em;
+    max-width: 26em;
+    font-size: 3.4vw;
   }
 
   .footer-skills {
@@ -930,6 +930,7 @@ body {
   }
 
   .footer-details {
+    display: none;
     font-size: 2.3em;
   }
 
@@ -938,7 +939,7 @@ body {
   }
 
   .footer-contact-links {
-    font-size: 2.3em;
+    font-size: 3em;
   }
 
   .footnote-text {
@@ -991,15 +992,15 @@ body {
   }
 
   .image-15 {
-    height: 46em;
+    height: 56em;
   }
 
   .heading-6 {
-    font-size: 2.8em;
+    font-size: 3.4em;
   }
 
   .paragraph {
-    font-size: 2.6vw;
+    font-size: 3vw;
     font-weight: 400;
   }
 
@@ -1033,6 +1034,11 @@ body {
 
   .text-span-5 {
     font-size: 0.7em;
+  }
+
+  .image-17 {
+    width: auto;
+    max-width: 200%;
   }
 }
 
