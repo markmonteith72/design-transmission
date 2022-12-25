@@ -568,14 +568,18 @@ body {
   font-size: 0.4em;
 }
 
+.text-span-5 {
+  font-size: 0.5em;
+}
+
 @media screen and (max-width: 991px) {
   .image-14 {
     top: 18px;
   }
 
   .nav-menu {
-    width: 28em;
-    height: 1.9em;
+    width: 38em;
+    height: 2em;
     border-width: 1px;
   }
 
@@ -589,8 +593,9 @@ body {
   }
 
   .text-block {
-    left: 39%;
-    font-size: 1.6vw;
+    left: 37%;
+    width: 32em;
+    font-size: 1.8vw;
   }
 
   .about-skills-section {
@@ -598,8 +603,8 @@ body {
   }
 
   .text-block-2 {
-    left: 39%;
-    font-size: 1.6vw;
+    left: 37%;
+    font-size: 1.8vw;
   }
 
   .heading-4 {
@@ -611,15 +616,15 @@ body {
   }
 
   .footer-details {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 
   .footer-contact-links {
-    font-size: 1.3em;
+    font-size: 1.7em;
   }
 
   .footnote-text {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
   }
 
   .button {
@@ -649,6 +654,8 @@ body {
 
   .ux-projects {
     margin-top: 2em;
+    margin-right: 3em;
+    margin-left: 3em;
     padding-right: 5em;
     padding-left: 5em;
   }
@@ -657,8 +664,13 @@ body {
     height: 26em;
   }
 
+  .heading-6 {
+    font-size: 1.8em;
+  }
+
   .paragraph {
-    font-size: 1.4vw;
+    font-size: 1.6vw;
+    font-weight: 400;
   }
 
   .div-block-2 {
@@ -668,16 +680,22 @@ body {
   }
 
   .web-design {
+    margin-right: 3em;
+    margin-left: 3em;
     padding-right: 2em;
     padding-left: 2em;
   }
 
   .illustration {
+    margin-right: 3em;
+    margin-left: 3em;
     padding-right: 2em;
     padding-left: 2em;
   }
 
   ._3d-modeling {
+    margin-right: 3em;
+    margin-left: 3em;
     padding-right: 2em;
     padding-left: 2em;
   }
@@ -690,6 +708,8 @@ body {
 
   .native-app-design {
     margin-top: 2em;
+    margin-right: 3em;
+    margin-left: 3em;
     padding-right: 5em;
     padding-left: 5em;
   }
@@ -798,6 +818,11 @@ body {
     text-align: center;
   }
 
+  .ux-projects {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+  }
+
   .image-15 {
     height: 32em;
   }
@@ -816,15 +841,48 @@ body {
     font-size: 1.8vw;
   }
 
+  .web-design {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+  }
+
+  .illustration {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+  }
+
+  ._3d-modeling {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+  }
+
+  .native-app-design {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+  }
+
   .text-span-4 {
     font-size: 0.5em;
   }
 }
 
 @media screen and (max-width: 479px) {
+  .heading-3 {
+    font-size: 6em;
+    line-height: 1;
+  }
+
+  .image-14 {
+    max-width: 140%;
+  }
+
+  .logo {
+    width: 5em;
+  }
+
   .nav-menu {
-    width: 48em;
-    height: 3em;
+    width: 52em;
+    height: 4em;
   }
 
   .hero-section {
@@ -832,13 +890,16 @@ body {
   }
 
   .link {
-    font-size: 2.2vw;
-    line-height: 1.7;
+    font-size: 2.5vw;
+    line-height: 2;
   }
 
   .text-block {
-    left: 27%;
-    font-size: 1.9vw;
+    left: 17%;
+    width: 30em;
+    max-width: 30em;
+    padding-top: 1.5em;
+    font-size: 2.6vw;
   }
 
   .about-skills-section {
@@ -846,52 +907,120 @@ body {
   }
 
   .text-block-2 {
-    left: 27%;
-    font-size: 1.9vw;
+    left: 17%;
+    width: 30em;
+    max-width: 30em;
+    font-size: 2.6vw;
+  }
+
+  .heading-4 {
+    width: 28em;
+    max-width: 28em;
+    font-size: 3vw;
+  }
+
+  .heading-5 {
+    width: 28em;
+    max-width: 28em;
+    font-size: 3vw;
+  }
+
+  .footer-skills {
+    margin-left: 2em;
+  }
+
+  .footer-details {
+    font-size: 2.3em;
+  }
+
+  .footer-contact {
+    margin-right: 2em;
+  }
+
+  .footer-contact-links {
+    font-size: 2.3em;
+  }
+
+  .footnote-text {
+    font-size: 2.4vw;
   }
 
   .button {
-    left: 33em;
-    bottom: 17.2em;
+    left: 22.2em;
+    bottom: 12.5em;
     width: 14em;
     padding: 0px;
-    font-size: 1.8vw;
+    font-size: 2.5vw;
   }
 
   .button-2 {
-    left: 33em;
-    bottom: 16.3em;
+    left: 22.2em;
+    bottom: 11.9em;
     width: 14em;
     padding: 0px;
-    font-size: 1.8vw;
+    font-size: 2.5vw;
   }
 
   .button-3 {
-    left: 33em;
-    bottom: 15.4em;
+    left: 22.2em;
+    bottom: 11.3em;
     width: 14em;
     padding: 0px;
-    font-size: 1.8vw;
+    font-size: 2.5vw;
   }
 
   .button-4 {
-    left: 33em;
-    bottom: 14.4em;
+    left: 22.2em;
+    bottom: 10.7em;
     width: 14em;
     padding: 0px;
-    font-size: 1.8vw;
+    font-size: 2.5vw;
   }
 
   .button-5 {
-    left: 33em;
-    bottom: 13.4em;
+    left: 22.2em;
+    bottom: 10.1em;
     width: 14em;
     padding: 0px;
-    font-size: 1.8vw;
+    font-size: 2.5vw;
+  }
+
+  .ux-projects {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+  }
+
+  .image-15 {
+    height: 46em;
   }
 
   .heading-6 {
-    font-size: 1.9em;
+    font-size: 2.8em;
+  }
+
+  .paragraph {
+    font-size: 2.6vw;
+    font-weight: 400;
+  }
+
+  .web-design {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+  }
+
+  .illustration {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+  }
+
+  ._3d-modeling {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+  }
+
+  .native-app-design {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
   }
 
   .text-span-3 {
@@ -900,6 +1029,10 @@ body {
 
   .text-span-4 {
     font-size: 0.5em;
+  }
+
+  .text-span-5 {
+    font-size: 0.7em;
   }
 }
 
