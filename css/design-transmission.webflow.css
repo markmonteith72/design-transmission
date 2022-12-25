@@ -37,7 +37,7 @@ body {
 }
 
 .logo {
-  position: fixed;
+  position: absolute;
   left: 0%;
   top: 0%;
   right: auto;
@@ -572,6 +572,10 @@ body {
   font-size: 0.5em;
 }
 
+.image-17 {
+  width: 800px;
+}
+
 @media screen and (max-width: 991px) {
   .image-14 {
     top: 18px;
@@ -940,6 +944,10 @@ body {
 
   .footer-contact-links {
     font-size: 3em;
+  }
+
+  .footnote {
+    padding-bottom: 4.5em;
   }
 
   .footnote-text {
