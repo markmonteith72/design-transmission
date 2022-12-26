@@ -600,6 +600,7 @@ body {
     left: 37%;
     width: 32em;
     font-size: 1.8vw;
+    font-weight: 600;
   }
 
   .about-skills-section {
@@ -609,6 +610,7 @@ body {
   .text-block-2 {
     left: 37%;
     font-size: 1.8vw;
+    font-weight: 600;
   }
 
   .heading-4 {
@@ -628,7 +630,7 @@ body {
   }
 
   .footnote-text {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
 
   .button {
@@ -674,7 +676,7 @@ body {
 
   .paragraph {
     font-size: 1.6vw;
-    font-weight: 400;
+    font-weight: 600;
   }
 
   .div-block-2 {
@@ -734,29 +736,61 @@ body {
   }
 
   .text-block {
+    position: static;
     left: 28%;
+    width: 40em;
+    max-width: 40em;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
     font-size: 1.9vw;
+    line-height: 1.2;
+    font-weight: 600;
   }
 
   .about-skills-section {
     margin-top: -13em;
+    padding-right: 0px;
+  }
+
+  .about-me-section {
+    padding-right: 0px;
   }
 
   .text-block-2 {
+    position: static;
     left: 28%;
+    width: 40em;
+    max-width: 40em;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
     font-size: 1.9vw;
+    line-height: 1.2;
+    font-weight: 600;
   }
 
   .heading-4 {
     width: 32em;
     max-width: 32em;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1em;
+    padding-left: 1em;
     font-size: 2.6vw;
   }
 
   .heading-5 {
     width: 32em;
     max-width: 32em;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1em;
+    padding-left: 1em;
     font-size: 2.6vw;
+    font-weight: 800;
   }
 
   .footer-details {
@@ -768,7 +802,7 @@ body {
   }
 
   .footnote-text {
-    font-size: 1.7vw;
+    font-size: 2vw;
   }
 
   .button {
@@ -843,6 +877,7 @@ body {
 
   .paragraph {
     font-size: 1.8vw;
+    font-weight: 600;
   }
 
   .web-design {
@@ -872,6 +907,8 @@ body {
 
 @media screen and (max-width: 479px) {
   .heading-3 {
+    padding-top: 0.5em;
+    padding-bottom: 0.8em;
     font-size: 7em;
     line-height: 1;
   }
@@ -886,7 +923,7 @@ body {
 
   .nav-menu {
     width: 52em;
-    height: 4em;
+    height: 4.7em;
   }
 
   .hero-section {
@@ -894,8 +931,9 @@ body {
   }
 
   .link {
-    font-size: 2.5vw;
+    font-size: 3vw;
     line-height: 2;
+    font-weight: 700;
   }
 
   .text-block {
@@ -909,10 +947,11 @@ body {
     padding-right: 0px;
     padding-left: 0px;
     font-size: 3.6vw;
+    font-weight: 600;
   }
 
   .about-skills-section {
-    margin-top: -14em;
+    margin-top: 3em;
     padding-right: 0px;
   }
 
@@ -930,6 +969,7 @@ body {
     padding-right: 0px;
     padding-left: 0px;
     font-size: 3.6vw;
+    font-weight: 600;
   }
 
   .heading-4 {
@@ -974,12 +1014,13 @@ body {
   }
 
   .footnote-text {
-    font-size: 2.8vw;
+    font-size: 3vw;
   }
 
   .button {
     left: 22.2em;
     bottom: 12.5em;
+    display: none;
     width: 14em;
     padding: 0px;
     font-size: 2.5vw;
@@ -988,6 +1029,7 @@ body {
   .button-2 {
     left: 22.2em;
     bottom: 11.9em;
+    display: none;
     width: 14em;
     padding: 0px;
     font-size: 2.5vw;
@@ -996,6 +1038,7 @@ body {
   .button-3 {
     left: 22.2em;
     bottom: 11.3em;
+    display: none;
     width: 14em;
     padding: 0px;
     font-size: 2.5vw;
@@ -1004,6 +1047,7 @@ body {
   .button-4 {
     left: 22.2em;
     bottom: 10.7em;
+    display: none;
     width: 14em;
     padding: 0px;
     font-size: 2.5vw;
@@ -1012,6 +1056,7 @@ body {
   .button-5 {
     left: 22.2em;
     bottom: 10.1em;
+    display: none;
     width: 14em;
     padding: 0px;
     font-size: 2.5vw;
@@ -1055,7 +1100,7 @@ body {
 
   .paragraph {
     font-size: 4vw;
-    font-weight: 400;
+    font-weight: 600;
   }
 
   .web-design {
@@ -1129,6 +1174,10 @@ body {
   .image-17 {
     width: auto;
     max-width: 200%;
+  }
+
+  .lottie-animation {
+    display: none;
   }
 }
 
