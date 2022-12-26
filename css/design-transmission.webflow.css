@@ -144,10 +144,6 @@ body {
   background-color: #f6ce3a;
 }
 
-.text-span {
-  font-size: 0.3em;
-}
-
 .about-me-section {
   position: relative;
   height: auto;
@@ -520,28 +516,6 @@ body {
   background-color: #fff;
 }
 
-.ux-projects-copy {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: auto;
-  max-width: none;
-  margin-right: 10em;
-  margin-left: 10em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  background-color: #fff;
-}
-
 .native-app-design {
   display: -webkit-box;
   display: -webkit-flex;
@@ -562,10 +536,6 @@ body {
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: #fff;
-}
-
-.text-span-4 {
-  font-size: 0.4em;
 }
 
 .text-span-5 {
@@ -704,12 +674,6 @@ body {
     margin-left: 3em;
     padding-right: 2em;
     padding-left: 2em;
-  }
-
-  .ux-projects-copy {
-    margin-top: 2em;
-    padding-right: 5em;
-    padding-left: 5em;
   }
 
   .native-app-design {
@@ -898,10 +862,6 @@ body {
   .native-app-design {
     margin-right: 3.5em;
     margin-left: 3.5em;
-  }
-
-  .text-span-4 {
-    font-size: 0.5em;
   }
 }
 
@@ -1157,14 +1117,6 @@ body {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-
-  .text-span-3 {
-    font-size: 0.5em;
-  }
-
-  .text-span-4 {
-    font-size: 0.5em;
   }
 
   .text-span-5 {
