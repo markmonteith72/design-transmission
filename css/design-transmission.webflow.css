@@ -872,7 +872,7 @@ body {
 
 @media screen and (max-width: 479px) {
   .heading-3 {
-    font-size: 6em;
+    font-size: 7em;
     line-height: 1;
   }
 
@@ -899,34 +899,57 @@ body {
   }
 
   .text-block {
+    position: static;
     left: 22%;
     width: 24em;
     max-width: 24em;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 1.5em;
-    font-size: 3vw;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 3.6vw;
   }
 
   .about-skills-section {
     margin-top: -14em;
+    padding-right: 0px;
+  }
+
+  .about-me-section {
+    padding-right: 0px;
   }
 
   .text-block-2 {
+    position: static;
     left: 22%;
     width: 24em;
     max-width: 24em;
-    font-size: 3vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 3.6vw;
   }
 
   .heading-4 {
-    width: 26em;
-    max-width: 26em;
-    font-size: 3.4vw;
+    width: 24em;
+    max-width: 24em;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 4vw;
   }
 
   .heading-5 {
-    width: 26em;
-    max-width: 26em;
-    font-size: 3.4vw;
+    width: 24em;
+    max-width: 24em;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 4vw;
   }
 
   .footer-skills {
@@ -943,7 +966,7 @@ body {
   }
 
   .footer-contact-links {
-    font-size: 3em;
+    font-size: 3.4em;
   }
 
   .footnote {
@@ -951,7 +974,7 @@ body {
   }
 
   .footnote-text {
-    font-size: 2.4vw;
+    font-size: 2.8vw;
   }
 
   .button {
@@ -995,41 +1018,100 @@ body {
   }
 
   .ux-projects {
-    margin-right: 3.5em;
-    margin-left: 3.5em;
+    margin-right: 0px;
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .image-15 {
     height: 56em;
   }
 
+  .div-block {
+    width: 65em;
+    max-width: 70em;
+    margin-top: 4em;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+
   .heading-6 {
-    font-size: 3.4em;
+    font-size: 4.5em;
   }
 
   .paragraph {
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 400;
   }
 
   .web-design {
     margin-right: 3.5em;
     margin-left: 3.5em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .illustration {
     margin-right: 3.5em;
     margin-left: 3.5em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   ._3d-modeling {
     margin-right: 3.5em;
     margin-left: 3.5em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .native-app-design {
     margin-right: 3.5em;
     margin-left: 3.5em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .text-span-3 {
@@ -1041,7 +1123,7 @@ body {
   }
 
   .text-span-5 {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 
   .image-17 {
