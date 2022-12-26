@@ -738,13 +738,13 @@ body {
   .text-block {
     position: static;
     left: 28%;
-    width: 40em;
-    max-width: 40em;
+    width: 36em;
+    max-width: 36em;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 0px;
-    padding-left: 0px;
-    font-size: 1.9vw;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 2.2vw;
     line-height: 1.2;
     font-weight: 600;
   }
@@ -761,13 +761,13 @@ body {
   .text-block-2 {
     position: static;
     left: 28%;
-    width: 40em;
-    max-width: 40em;
+    width: 36em;
+    max-width: 36em;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 0px;
-    padding-left: 0px;
-    font-size: 1.9vw;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 2.2vw;
     line-height: 1.2;
     font-weight: 600;
   }
@@ -872,11 +872,11 @@ body {
   }
 
   .heading-6 {
-    font-size: 2em;
+    font-size: 2.2em;
   }
 
   .paragraph {
-    font-size: 1.8vw;
+    font-size: 2vw;
     font-weight: 600;
   }
 
