@@ -937,6 +937,11 @@ body {
     font-size: 4vw;
   }
 
+  .footer {
+    margin-top: 2em;
+    margin-bottom: 0em;
+  }
+
   .footer-skills {
     margin-left: 2em;
   }
@@ -1009,7 +1014,7 @@ body {
 
   .div-block {
     width: 65em;
-    max-width: 70em;
+    max-width: 65em;
     margin-top: 4em;
     margin-right: auto;
     margin-left: auto;
@@ -1026,7 +1031,22 @@ body {
     font-weight: 600;
   }
 
+  .div-block-2 {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+
   .web-design {
+    margin-top: 4em;
     margin-right: 3.5em;
     margin-left: 3.5em;
     -webkit-box-orient: vertical;
@@ -1040,7 +1060,12 @@ body {
     align-items: center;
   }
 
+  .image-16 {
+    display: none;
+  }
+
   .illustration {
+    margin-top: 4em;
     margin-right: 3.5em;
     margin-left: 3.5em;
     -webkit-box-orient: vertical;
@@ -1055,6 +1080,7 @@ body {
   }
 
   ._3d-modeling {
+    margin-top: 4em;
     margin-right: 3.5em;
     margin-left: 3.5em;
     -webkit-box-orient: vertical;
@@ -1062,6 +1088,10 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -1082,6 +1112,7 @@ body {
   }
 
   .native-app-design {
+    margin-top: 4em;
     margin-right: 3.5em;
     margin-left: 3.5em;
     -webkit-box-orient: vertical;
@@ -1095,7 +1126,14 @@ body {
     align-items: center;
   }
 
+  .image-18 {
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
   .ux-design {
+    margin-top: 4em;
     margin-right: 3.5em;
     margin-left: 3.5em;
     -webkit-box-orient: vertical;
