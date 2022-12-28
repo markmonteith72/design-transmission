@@ -442,6 +442,7 @@ body {
 }
 
 .image-16 {
+  display: none;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.35);
 }
 
@@ -667,7 +668,7 @@ body {
   }
 
   .image-18 {
-    display: none;
+    display: block;
   }
 
   .ux-design {
@@ -678,15 +679,15 @@ body {
   }
 
   .image-19 {
-    display: none;
+    display: block;
   }
 
   .image-20 {
-    display: none;
+    display: block;
   }
 
   .image-21 {
-    display: none;
+    display: block;
   }
 }
 
@@ -845,6 +846,10 @@ body {
     margin-left: 3.5em;
   }
 
+  .image-16 {
+    display: none;
+  }
+
   .illustration {
     margin-right: 3.5em;
     margin-left: 3.5em;
@@ -861,7 +866,7 @@ body {
   }
 
   .image-18 {
-    display: none;
+    display: block;
   }
 
   .ux-design {
@@ -870,15 +875,15 @@ body {
   }
 
   .image-19 {
-    display: none;
+    display: block;
   }
 
   .image-20 {
-    display: none;
+    display: block;
   }
 
   .image-21 {
-    display: none;
+    display: block;
   }
 }
 
