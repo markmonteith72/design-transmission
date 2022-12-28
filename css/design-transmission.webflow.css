@@ -666,11 +666,27 @@ body {
     padding-left: 2em;
   }
 
+  .image-18 {
+    display: none;
+  }
+
   .ux-design {
     margin-right: 3em;
     margin-left: 3em;
     padding-right: 2em;
     padding-left: 2em;
+  }
+
+  .image-19 {
+    display: none;
+  }
+
+  .image-20 {
+    display: none;
+  }
+
+  .image-21 {
+    display: none;
   }
 }
 
@@ -844,9 +860,25 @@ body {
     margin-left: 3.5em;
   }
 
+  .image-18 {
+    display: none;
+  }
+
   .ux-design {
     margin-right: 3.5em;
     margin-left: 3.5em;
+  }
+
+  .image-19 {
+    display: none;
+  }
+
+  .image-20 {
+    display: none;
+  }
+
+  .image-21 {
+    display: none;
   }
 }
 
@@ -1127,6 +1159,7 @@ body {
   }
 
   .image-18 {
+    display: block;
     max-width: 100%;
     margin-right: 0px;
     margin-left: 0px;
@@ -1145,6 +1178,18 @@ body {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .image-19 {
+    display: block;
+  }
+
+  .image-20 {
+    display: block;
+  }
+
+  .image-21 {
+    display: block;
   }
 }
 
