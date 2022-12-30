@@ -712,6 +712,7 @@ body {
 
   .hero-section {
     top: 0em;
+    margin-top: 3em;
   }
 
   .link {
@@ -923,6 +924,7 @@ body {
 
   .hero-section {
     top: 0em;
+    margin-top: 0em;
   }
 
   .link {
