@@ -77,7 +77,8 @@ body {
 }
 
 .hero-section {
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
   top: -0.5em;
   bottom: 0em;
   display: block;
@@ -125,16 +126,22 @@ body {
 }
 
 .projects-section {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0em;
   width: auto;
   max-width: none;
   margin-right: 0px;
   margin-left: 0px;
   padding-top: 3em;
   padding-bottom: 3em;
+  background-color: #e5ecf0;
 }
 
 .about-skills-section {
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0em;
   height: auto;
   max-height: none;
   margin-top: 2em;
@@ -145,7 +152,9 @@ body {
 }
 
 .about-me-section {
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0em;
   height: auto;
   max-height: none;
   padding-top: 4em;
@@ -204,6 +213,11 @@ body {
 }
 
 .footer {
+  position: static;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -281,6 +295,7 @@ body {
 }
 
 .footnote {
+  margin-bottom: -3em;
   padding-bottom: 3em;
   border: 1px none #000;
   border-radius: 0px;
@@ -475,9 +490,7 @@ body {
   display: flex;
   width: auto;
   max-width: none;
-  margin-top: 2em;
-  margin-right: 10em;
-  margin-left: 10em;
+  margin: 2em 10em;
   padding: 2em 3em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
