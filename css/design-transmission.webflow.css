@@ -79,7 +79,7 @@ body {
 .hero-section {
   position: -webkit-sticky;
   position: sticky;
-  top: -0.5em;
+  top: 0em;
   bottom: 0em;
   display: block;
   height: auto;
@@ -567,7 +567,7 @@ body {
   }
 
   .hero-section {
-    top: -3em;
+    top: 0em;
   }
 
   .link {
@@ -711,7 +711,7 @@ body {
   }
 
   .hero-section {
-    top: -7em;
+    top: 0em;
   }
 
   .link {
@@ -922,7 +922,7 @@ body {
   }
 
   .hero-section {
-    top: -10em;
+    top: 0em;
   }
 
   .link {
