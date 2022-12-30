@@ -725,6 +725,7 @@ body {
     width: 36em;
     max-width: 36em;
     margin-right: auto;
+    margin-bottom: 3em;
     margin-left: auto;
     padding-right: 1em;
     padding-left: 1em;
@@ -735,11 +736,15 @@ body {
 
   .about-skills-section {
     margin-top: -13em;
+    padding-top: 0.3em;
     padding-right: 0px;
+    padding-bottom: 0.3em;
   }
 
   .about-me-section {
+    padding-top: 0.3em;
     padding-right: 0px;
+    padding-bottom: 0.3em;
   }
 
   .text-block-2 {
@@ -748,6 +753,7 @@ body {
     width: 36em;
     max-width: 36em;
     margin-right: auto;
+    margin-bottom: 3em;
     margin-left: auto;
     padding-right: 1em;
     padding-left: 1em;
@@ -759,9 +765,11 @@ body {
   .heading-4 {
     width: 32em;
     max-width: 32em;
+    margin-top: 3em;
     margin-right: auto;
     margin-left: auto;
     padding-right: 1em;
+    padding-bottom: 1.5em;
     padding-left: 1em;
     font-size: 2.6vw;
   }
@@ -769,9 +777,11 @@ body {
   .heading-5 {
     width: 32em;
     max-width: 32em;
+    margin-top: 3em;
     margin-right: auto;
     margin-left: auto;
     padding-right: 1em;
+    padding-bottom: 1.5em;
     padding-left: 1em;
     font-size: 2.6vw;
     font-weight: 800;
@@ -939,8 +949,9 @@ body {
     width: 24em;
     max-width: 24em;
     margin-right: auto;
+    margin-bottom: 6em;
     margin-left: auto;
-    padding-top: 1.5em;
+    padding-top: 3em;
     padding-right: 0px;
     padding-left: 0px;
     font-size: 3.6vw;
@@ -962,6 +973,7 @@ body {
     width: 24em;
     max-width: 24em;
     margin-right: auto;
+    margin-bottom: 6em;
     margin-left: auto;
     padding-right: 0px;
     padding-left: 0px;
@@ -972,9 +984,11 @@ body {
   .heading-4 {
     width: 24em;
     max-width: 24em;
+    margin-top: 6em;
     margin-right: auto;
     margin-left: auto;
     padding-right: 1em;
+    padding-bottom: 3em;
     padding-left: 1em;
     font-size: 4vw;
   }
@@ -982,9 +996,11 @@ body {
   .heading-5 {
     width: 24em;
     max-width: 24em;
+    margin-top: 6em;
     margin-right: auto;
     margin-left: auto;
     padding-right: 1em;
+    padding-bottom: 3em;
     padding-left: 1em;
     font-size: 4vw;
   }
