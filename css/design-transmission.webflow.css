@@ -533,6 +533,10 @@ body {
   background-color: #fff;
 }
 
+.image-18 {
+  box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.35);
+}
+
 .ux-design {
   display: -webkit-box;
   display: -webkit-flex;
@@ -553,6 +557,22 @@ body {
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: #fff;
+}
+
+.image-19 {
+  box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.35);
+}
+
+.image-20 {
+  box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.35);
+}
+
+.image-21 {
+  box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.35);
+}
+
+.image-22 {
+  box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.35);
 }
 
 @media screen and (max-width: 991px) {
