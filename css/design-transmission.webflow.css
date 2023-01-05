@@ -408,7 +408,7 @@ body {
 }
 
 .heading-6 {
-  padding-bottom: 0.3em;
+  padding-bottom: 0.4em;
   border-bottom: 1px solid #000;
   font-family: articulat-cf, sans-serif;
   font-size: 1.6em;
@@ -416,6 +416,7 @@ body {
 }
 
 .paragraph {
+  padding-top: 0.5em;
   padding-bottom: 2em;
   border-bottom: 1px none #000;
   border-radius: 1px;
@@ -1148,7 +1149,7 @@ body {
   }
 
   .paragraph {
-    padding-top: 2em;
+    padding-top: 0.5em;
     border-top: 1px none #000;
     font-size: 4vw;
     font-weight: 600;
