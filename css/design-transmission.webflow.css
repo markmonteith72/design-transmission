@@ -588,6 +588,12 @@ body {
   max-width: 5em;
 }
 
+.div-block-3 {
+  position: relative;
+  left: 4em;
+  top: -4em;
+}
+
 @media screen and (max-width: 991px) {
   .image-14 {
     top: 18px;
@@ -646,28 +652,48 @@ body {
   }
 
   .button {
-    left: 48.5em;
-    padding: 4px 25px;
+    position: static;
+    left: 41em;
+    bottom: 25.4em;
+    width: 14em;
+    padding: 4px 0px;
+    text-align: center;
   }
 
   .button-2 {
-    left: 39.8em;
-    padding: 4px 25px;
+    position: static;
+    left: 27.1em;
+    bottom: 21.9em;
+    width: 14em;
+    padding: 4px 0px;
+    text-align: center;
   }
 
   .button-3 {
-    left: 25.9em;
-    padding: 4px 25px;
+    position: static;
+    left: 13.2em;
+    bottom: 18.3em;
+    width: 14em;
+    padding: 4px 0px;
+    text-align: center;
   }
 
   .button-4 {
-    left: 16.7em;
-    padding: 4px 25px;
+    position: static;
+    left: -0.7em;
+    bottom: 14.6em;
+    width: 14em;
+    padding: 4px 0px;
+    text-align: center;
   }
 
   .button-5 {
-    left: 4.7em;
-    padding: 4px 25px;
+    position: static;
+    left: -14.6em;
+    bottom: 10.9em;
+    width: 14em;
+    padding: 4px 0px;
+    text-align: center;
   }
 
   .heading-6 {
@@ -737,15 +763,45 @@ body {
   }
 
   .link-block {
-    display: none;
+    display: block;
   }
 
   .link-block.w--current {
     display: inline-block;
   }
+
+  .div-block-3 {
+    position: relative;
+    left: 45em;
+    top: -28.1em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 16em;
+    max-width: 16em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .heading-3 {
+    font-size: 4em;
+  }
+
   .nav-menu {
     width: 52em;
     height: 3em;
@@ -842,53 +898,57 @@ body {
   }
 
   .button {
-    left: 33.5em;
+    left: 37.7em;
+    bottom: 20.7em;
+    display: block;
+    width: 14em;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 1.6vw;
+    text-align: center;
+  }
+
+  .button-2 {
+    left: 37.7em;
+    bottom: 20.2em;
+    display: block;
+    width: 14em;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 1.6vw;
+    text-align: center;
+  }
+
+  .button-3 {
+    left: 37.7em;
+    bottom: 19.6em;
+    display: block;
+    width: 14em;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 1.6vw;
+    text-align: center;
+  }
+
+  .button-4 {
+    left: 37.7em;
+    bottom: 19em;
+    display: block;
+    width: 14em;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 1.6vw;
+    text-align: center;
+  }
+
+  .button-5 {
+    left: 37.7em;
     bottom: 18.3em;
     display: block;
     width: 14em;
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 1.8vw;
-    text-align: center;
-  }
-
-  .button-2 {
-    left: 33.5em;
-    bottom: 17.6em;
-    display: block;
-    width: 14em;
-    padding-right: 0px;
-    padding-left: 0px;
-    font-size: 1.8vw;
-    text-align: center;
-  }
-
-  .button-3 {
-    left: 33.5em;
-    bottom: 16.8em;
-    display: block;
-    width: 14em;
-    font-size: 1.8vw;
-    text-align: center;
-  }
-
-  .button-4 {
-    left: 33.5em;
-    bottom: 16em;
-    display: block;
-    width: 14em;
-    padding-right: 0px;
-    padding-left: 0px;
-    font-size: 1.8vw;
-    text-align: center;
-  }
-
-  .button-5 {
-    left: 33.5em;
-    bottom: 15.2em;
-    display: block;
-    width: 14em;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     text-align: center;
   }
 
@@ -958,6 +1018,10 @@ body {
 
   .link-block.w--current {
     display: none;
+  }
+
+  .div-block-3 {
+    top: -24.8em;
   }
 }
 
@@ -1282,6 +1346,10 @@ body {
 
   .image-21 {
     display: block;
+  }
+
+  .div-block-3 {
+    display: none;
   }
 }
 
