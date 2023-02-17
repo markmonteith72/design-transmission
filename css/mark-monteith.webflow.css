@@ -149,6 +149,7 @@
   flex: 0 auto;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  background-color: #000;
 }
 
 .text {
@@ -1067,6 +1068,14 @@
     padding-right: 0;
   }
 
+  .navbar-content {
+    background-color: #000;
+  }
+
+  .navbar-brand {
+    background-color: #000;
+  }
+
   .navbar-menu {
     max-width: unset;
   }
@@ -1076,6 +1085,11 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    background-color: #000;
+  }
+
+  .text {
+    background-color: #000;
   }
 
   .hero-no-image {
@@ -1130,7 +1144,36 @@
   }
 
   .icon {
+    background-color: #000;
     color: #fff;
+  }
+
+  .icon:active {
+    background-color: #000;
+  }
+
+  .menu-button {
+    background-color: #000;
+  }
+
+  .menu-button:hover {
+    background-color: #000;
+  }
+
+  .menu-button:active {
+    background-color: #000;
+  }
+
+  .menu-button:focus {
+    background-color: #000;
+  }
+
+  .menu-button:focus-visible {
+    background-color: #000;
+  }
+
+  .menu-button[data-wf-focus-visible] {
+    background-color: #000;
   }
 }
 
@@ -1234,6 +1277,10 @@
     font-size: 36px;
   }
 
+  .column-2 {
+    padding-bottom: 15px;
+  }
+
   .text-4 {
     font-size: 12px;
   }
@@ -1251,12 +1298,12 @@
   }
 
   .text-block-2 {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 22px;
   }
 
   .email-link {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 20px;
   }
 
