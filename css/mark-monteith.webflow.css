@@ -965,6 +965,65 @@
   text-decoration: none;
 }
 
+.main-logo {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.container-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  padding: 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 1px none #000;
+  background-color: #000;
+}
+
+.container-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  padding: 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 1px none #000;
+  background-color: #000;
+}
+
 @media screen and (max-width: 991px) {
   .navbar-logo-left {
     padding-right: 0;
@@ -979,6 +1038,21 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .hero-no-image {
+    height: 800px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .container-3 {
+    border-bottom-style: none;
+  }
+
+  .container-4 {
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
   }
 
   .about {
@@ -1017,6 +1091,25 @@
 }
 
 @media screen and (max-width: 767px) {
+  .container-4 {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .text-3 {
+    line-height: 125%;
+    text-align: left;
+  }
+
+  .container-6 {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
   .f2wf-small-columns {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1027,6 +1120,107 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .container-7 {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .container-8 {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .navbar-brand {
+    padding-left: 0px;
+  }
+
+  .hero-no-image {
+    height: 550px;
+  }
+
+  .small-container {
+    top: auto;
+  }
+
+  .main-heading {
+    font-size: 48px;
+  }
+
+  .hero-about {
+    font-family: tablet-gothic, sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 400;
+  }
+
+  .scrolling-heading {
+    font-size: 26px;
+  }
+
+  .container-3 {
+    border: 1px none #000;
+  }
+
+  .container-4 {
+    border-style: none none solid;
+    border-color: #000 #000 #fff;
+  }
+
+  .text-3 {
+    font-size: 34px;
+    line-height: 100%;
+  }
+
+  .projects-3 {
+    font-size: 36px;
+  }
+
+  .text-4 {
+    font-size: 12px;
+  }
+
+  .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-suspendisse-varius-enim-in-eros-elementum-tristique-0 {
+    font-size: 16px;
+  }
+
+  .projects-0 {
+    font-size: 36px;
+  }
+
+  .projects-4 {
+    font-size: 36px;
+  }
+
+  .text-block-2 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .email-link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .main-logo {
+    max-width: 75%;
+  }
+
+  .container-7 {
+    border-style: none;
+    border-color: #000;
+  }
+
+  .container-8 {
+    border-style: none;
+    border-color: #000;
   }
 }
 
