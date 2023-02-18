@@ -1063,6 +1063,39 @@
   letter-spacing: 0em;
 }
 
+.container-copy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: auto;
+  max-width: none;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-style: none;
+  border-width: 1px;
+  border-color: #697f7c;
+  background-color: #000;
+}
+
 @media screen and (max-width: 991px) {
   .navbar-logo-left {
     padding-right: 0;
@@ -1300,7 +1333,7 @@
   .hero-no-image {
     top: auto;
     height: 550px;
-    margin-top: 48px;
+    margin-top: 160px;
   }
 
   .small-container {
@@ -1316,6 +1349,10 @@
     font-size: 14px;
     line-height: 100%;
     font-weight: 400;
+  }
+
+  .container {
+    display: none;
   }
 
   .scrolling-heading {
