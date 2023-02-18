@@ -1064,10 +1064,7 @@
 }
 
 .container-copy {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: hidden;
   width: auto;
   max-width: none;
@@ -1333,7 +1330,7 @@
   .hero-no-image {
     top: auto;
     height: 550px;
-    margin-top: 160px;
+    margin-top: 135px;
   }
 
   .small-container {
@@ -1423,6 +1420,13 @@
 
   .about-heading {
     font-size: 36px;
+  }
+
+  .container-copy {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
