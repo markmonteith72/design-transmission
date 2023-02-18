@@ -448,7 +448,7 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   border: 1px none #000;
-  background-color: #000;
+  background-color: transparent;
 }
 
 .text-3 {
@@ -510,7 +510,7 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   border-bottom: 1px solid #fff;
-  background-color: #000;
+  background-color: transparent;
 }
 
 .about {
@@ -988,7 +988,7 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   border: 1px none #000;
-  background-color: #000;
+  background-color: transparent;
 }
 
 .container-8 {
@@ -1179,6 +1179,11 @@
 
   .icon:active {
     background-color: #000;
+  }
+
+  .about-heading-section {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .container-7 {
