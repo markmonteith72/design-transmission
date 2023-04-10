@@ -365,6 +365,10 @@ body {
   opacity: 0.48;
 }
 
+.icon {
+  background-color: #000;
+}
+
 .heading-wrap {
   display: flex;
 }
@@ -440,6 +444,10 @@ body {
   padding-bottom: 60px;
   justify-content: space-between;
   align-items: center;
+}
+
+.menu-button {
+  background-color: #000;
 }
 
 .about-heading {
@@ -778,6 +786,10 @@ body {
     padding-right: 0;
   }
 
+  .navbarcontainer {
+    background-color: #000;
+  }
+
   .navbar-content {
     background-color: #000;
   }
@@ -788,6 +800,7 @@ body {
 
   .navbar-menu {
     max-width: unset;
+    background-color: #000;
   }
 
   .text {
@@ -955,6 +968,10 @@ body {
     padding-bottom: 10px;
     align-items: flex-start;
   }
+
+  .link-underline {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1052,6 +1069,10 @@ body {
 
   .link {
     font-size: 32px;
+  }
+
+  .link-wrap {
+    background-color: #000;
   }
 }
 
