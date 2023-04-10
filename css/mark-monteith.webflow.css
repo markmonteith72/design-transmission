@@ -972,6 +972,34 @@ body {
   .link-underline {
     display: none;
   }
+
+  .text-span-4 {
+    display: none;
+  }
+
+  .text-span-5 {
+    display: none;
+  }
+
+  .text-span-6 {
+    display: none;
+  }
+
+  .text-span-7 {
+    display: none;
+  }
+
+  .text-span-8 {
+    display: none;
+  }
+
+  .text-span-9 {
+    display: none;
+  }
+
+  .text-span-10 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1265,12 +1293,32 @@ body {
     padding-left: 16px;
   }
 
+  .next-link-block {
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+
   .bruck-image {
     max-width: 100%;
   }
 
   .transport-image {
     max-width: 100%;
+  }
+
+  .nutrassist-button {
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+
+  .transport-button {
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+
+  .bruck-button {
+    -ms-grid-row-align: center;
+        align-self: center;
   }
 }
 
