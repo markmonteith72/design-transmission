@@ -1196,8 +1196,8 @@ body {
   .container-7 {
     padding-right: 16px;
     padding-left: 16px;
-    border-style: none;
-    border-color: #000;
+    border-style: none none solid;
+    border-color: #000 #000 hsla(0, 0%, 100%, 0.5);
   }
 
   .container-8 {
